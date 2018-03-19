@@ -8,11 +8,33 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, SquareStartPoint) {
+    SquareStartPointLeftUp     = 0,
+    SquareStartPointRightUp    = 1,
+    SquareStartPointRightDown  = 2,
+    SquareStartPointLeftDown   = 3,
+};
+
+typedef NS_ENUM(NSInteger, SquareDirection) {
+    SquareDirectionRight = 0,
+    SquareDirectionLeft  = 1,
+};
+
 @interface XYSquareProgressView : UIView
 
 @property (assign, nonatomic)float percent;
 
-@property (assign, nonatomic)float width;
+//line width
+@property (assign, nonatomic)float width;//normal = 4
+
+//color
+@property (strong, nonatomic) UIColor *strokeColor;
+//or
+@property (assign, nonatomic) CGFloat r;
+@property (assign, nonatomic) CGFloat g;
+@property (assign, nonatomic) CGFloat b;
+
+@property (assign, nonatomic) CGFloat alpha;//normal = 1.0
 
 @property (strong, nonatomic) UIColor *centerColor;
 

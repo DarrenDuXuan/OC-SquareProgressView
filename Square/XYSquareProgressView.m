@@ -7,6 +7,7 @@
 //
 
 #import "XYSquareProgressView.h"
+#import "UIColor+Translate.h"
 
 @implementation XYSquareProgressView
 
@@ -33,6 +34,8 @@
 
 - (void) initUI{
     self.backgroundColor = [UIColor clearColor];
+    self.alpha = 1.0;
+    self.width = 4;
 }
 
 - (void)setPercent:(float)percent{
@@ -54,8 +57,22 @@
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineCap(context, kCGLineCapButt);
-    CGContextSetLineWidth(context, 4);
-    CGContextSetRGBStrokeColor(context, 255.0/255.0, 94/255.0, 19/255.0, 1.0);
+    CGContextSetLineWidth(context, _width);
+    if ( _strokeColor ) {
+        NSUInteger rHex = [UIColor xycHexFromColor:_strokeColor];
+        CGFloat R = (rHex & 0xFF0000 )>>16;
+        CGFloat G = (rHex & 0x00FF00 )>>8;
+        CGFloat B = rHex & 0x0000FF;
+        _r = R;
+        _g = G;
+        _b = B;
+        CGContextSetRGBStrokeColor(context, R/255.0, G/255.0, B/255.0, _alpha);
+        _strokeColor = nil;
+    }else{
+        CGContextSetRGBStrokeColor(context, _r/255.0, _g/255.0, _b/255.0, _alpha);
+    }
+    // 255, 84, 19
+    
     CGContextBeginPath(context);
     
     CGContextMoveToPoint(context, 0, 0);

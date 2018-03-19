@@ -10,4 +10,10 @@
 
 @interface UIColor (Translate)
 
++ (UIColor *) xycColorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
+
++ (UIColor *) xycColorWithHex:(NSInteger)hexValue;
+
++ (NSUInteger)xycHexFromColor:(UIColor *)color;
+
 @end
