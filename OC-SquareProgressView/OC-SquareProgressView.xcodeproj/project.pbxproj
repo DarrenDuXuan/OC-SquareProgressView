@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1C86CF205F97440092FFD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86CE205F97440092FFD2 /* AppDelegate.m */; };
+		CD1C86D2205F97440092FFD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86D1205F97440092FFD2 /* ViewController.m */; };
+		CD1C86D5205F97440092FFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1C86D3205F97440092FFD2 /* Main.storyboard */; };
+		CD1C86D7205F97440092FFD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1C86D6205F97440092FFD2 /* Assets.xcassets */; };
+		CD1C86DA205F97440092FFD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1C86D8205F97440092FFD2 /* LaunchScreen.storyboard */; };
+		CD1C86DD205F97440092FFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86DC205F97440092FFD2 /* main.m */; };
+		CD1C86E7205F97440092FFD2 /* OC_SquareProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86E6205F97440092FFD2 /* OC_SquareProgressViewTests.m */; };
+		CD1C86F2205F97440092FFD2 /* OC_SquareProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */; };
+		CD1C870A205F97FD0092FFD2 /* UIColor+Translate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C8708205F97FD0092FFD2 /* UIColor+Translate.m */; };
+		CD1C870B205F97FD0092FFD2 /* XYSquareProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C8709205F97FD0092FFD2 /* XYSquareProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1C86E3205F97440092FFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1C86C2205F97440092FFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1C86C9205F97440092FFD2;
+			remoteInfo = "OC-SquareProgressView";
+		};
+		CD1C86EE205F97440092FFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1C86C2205F97440092FFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1C86C9205F97440092FFD2;
+			remoteInfo = "OC-SquareProgressView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1C86CA205F97440092FFD2 /* OC-SquareProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-SquareProgressView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1C86CD205F97440092FFD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1C86CE205F97440092FFD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1C86D0205F97440092FFD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD1C86D1205F97440092FFD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD1C86D4205F97440092FFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1C86D6205F97440092FFD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1C86D9205F97440092FFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1C86DB205F97440092FFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1C86DC205F97440092FFD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1C86E2205F97440092FFD2 /* OC-SquareProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-SquareProgressViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1C86E6205F97440092FFD2 /* OC_SquareProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_SquareProgressViewTests.m; sourceTree = "<group>"; };
+		CD1C86E8205F97440092FFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1C86ED205F97440092FFD2 /* OC-SquareProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-SquareProgressViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_SquareProgressViewUITests.m; sourceTree = "<group>"; };
+		CD1C86F3205F97440092FFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1C8706205F97FD0092FFD2 /* UIColor+Translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Translate.h"; path = "../../../Square/UIColor+Translate.h"; sourceTree = "<group>"; };
+		CD1C8707205F97FD0092FFD2 /* XYSquareProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYSquareProgressView.h; path = ../../../Square/XYSquareProgressView.h; sourceTree = "<group>"; };
+		CD1C8708205F97FD0092FFD2 /* UIColor+Translate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Translate.m"; path = "../../../Square/UIColor+Translate.m"; sourceTree = "<group>"; };
+		CD1C8709205F97FD0092FFD2 /* XYSquareProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYSquareProgressView.m; path = ../../../Square/XYSquareProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1C86C7205F97440092FFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1C86DF205F97440092FFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1C86EA205F97440092FFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1C86C1205F97440092FFD2 = {
+			isa = PBXGroup;
+			children = (
+				CD1C86CC205F97440092FFD2 /* OC-SquareProgressView */,
+				CD1C86E5205F97440092FFD2 /* OC-SquareProgressViewTests */,
+				CD1C86F0205F97440092FFD2 /* OC-SquareProgressViewUITests */,
+				CD1C86CB205F97440092FFD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1C86CB205F97440092FFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C86CA205F97440092FFD2 /* OC-SquareProgressView.app */,
+				CD1C86E2205F97440092FFD2 /* OC-SquareProgressViewTests.xctest */,
+				CD1C86ED205F97440092FFD2 /* OC-SquareProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1C86CC205F97440092FFD2 /* OC-SquareProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C8705205F97C40092FFD2 /* Square */,
+				CD1C86CD205F97440092FFD2 /* AppDelegate.h */,
+				CD1C86CE205F97440092FFD2 /* AppDelegate.m */,
+				CD1C86D0205F97440092FFD2 /* ViewController.h */,
+				CD1C86D1205F97440092FFD2 /* ViewController.m */,
+				CD1C86D3205F97440092FFD2 /* Main.storyboard */,
+				CD1C86D6205F97440092FFD2 /* Assets.xcassets */,
+				CD1C86D8205F97440092FFD2 /* LaunchScreen.storyboard */,
+				CD1C86DB205F97440092FFD2 /* Info.plist */,
+				CD1C86DC205F97440092FFD2 /* main.m */,
+			);
+			path = "OC-SquareProgressView";
+			sourceTree = "<group>";
+		};
+		CD1C86E5205F97440092FFD2 /* OC-SquareProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C86E6205F97440092FFD2 /* OC_SquareProgressViewTests.m */,
+				CD1C86E8205F97440092FFD2 /* Info.plist */,
+			);
+			path = "OC-SquareProgressViewTests";
+			sourceTree = "<group>";
+		};
+		CD1C86F0205F97440092FFD2 /* OC-SquareProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */,
+				CD1C86F3205F97440092FFD2 /* Info.plist */,
+			);
+			path = "OC-SquareProgressViewUITests";
+			sourceTree = "<group>";
+		};
+		CD1C8705205F97C40092FFD2 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C8706205F97FD0092FFD2 /* UIColor+Translate.h */,
+				CD1C8708205F97FD0092FFD2 /* UIColor+Translate.m */,
+				CD1C8707205F97FD0092FFD2 /* XYSquareProgressView.h */,
+				CD1C8709205F97FD0092FFD2 /* XYSquareProgressView.m */,
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1C86C9205F97440092FFD2 /* OC-SquareProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1C86F6205F97440092FFD2 /* Build configuration list for PBXNativeTarget "OC-SquareProgressView" */;
+			buildPhases = (
+				CD1C86C6205F97440092FFD2 /* Sources */,
+				CD1C86C7205F97440092FFD2 /* Frameworks */,
+				CD1C86C8205F97440092FFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC-SquareProgressView";
+			productName = "OC-SquareProgressView";
+			productReference = CD1C86CA205F97440092FFD2 /* OC-SquareProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1C86E1205F97440092FFD2 /* OC-SquareProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1C86F9205F97440092FFD2 /* Build configuration list for PBXNativeTarget "OC-SquareProgressViewTests" */;
+			buildPhases = (
+				CD1C86DE205F97440092FFD2 /* Sources */,
+				CD1C86DF205F97440092FFD2 /* Frameworks */,
+				CD1C86E0205F97440092FFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1C86E4205F97440092FFD2 /* PBXTargetDependency */,
+			);
+			name = "OC-SquareProgressViewTests";
+			productName = "OC-SquareProgressViewTests";
+			productReference = CD1C86E2205F97440092FFD2 /* OC-SquareProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD1C86EC205F97440092FFD2 /* OC-SquareProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1C86FC205F97440092FFD2 /* Build configuration list for PBXNativeTarget "OC-SquareProgressViewUITests" */;
+			buildPhases = (
+				CD1C86E9205F97440092FFD2 /* Sources */,
+				CD1C86EA205F97440092FFD2 /* Frameworks */,
+				CD1C86EB205F97440092FFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1C86EF205F97440092FFD2 /* PBXTargetDependency */,
+			);
+			name = "OC-SquareProgressViewUITests";
+			productName = "OC-SquareProgressViewUITests";
+			productReference = CD1C86ED205F97440092FFD2 /* OC-SquareProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1C86C2205F97440092FFD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "杜璇";
+				TargetAttributes = {
+					CD1C86C9205F97440092FFD2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD1C86E1205F97440092FFD2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD1C86C9205F97440092FFD2;
+					};
+					CD1C86EC205F97440092FFD2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD1C86C9205F97440092FFD2;
+					};
+				};
+			};
+			buildConfigurationList = CD1C86C5205F97440092FFD2 /* Build configuration list for PBXProject "OC-SquareProgressView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1C86C1205F97440092FFD2;
+			productRefGroup = CD1C86CB205F97440092FFD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1C86C9205F97440092FFD2 /* OC-SquareProgressView */,
+				CD1C86E1205F97440092FFD2 /* OC-SquareProgressViewTests */,
+				CD1C86EC205F97440092FFD2 /* OC-SquareProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1C86C8205F97440092FFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1C86DA205F97440092FFD2 /* LaunchScreen.storyboard in Resources */,
+				CD1C86D7205F97440092FFD2 /* Assets.xcassets in Resources */,
+				CD1C86D5205F97440092FFD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1C86E0205F97440092FFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1C86EB205F97440092FFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1C86C6205F97440092FFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1C870B205F97FD0092FFD2 /* XYSquareProgressView.m in Sources */,
+				CD1C870A205F97FD0092FFD2 /* UIColor+Translate.m in Sources */,
+				CD1C86D2205F97440092FFD2 /* ViewController.m in Sources */,
+				CD1C86DD205F97440092FFD2 /* main.m in Sources */,
+				CD1C86CF205F97440092FFD2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1C86DE205F97440092FFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1C86E7205F97440092FFD2 /* OC_SquareProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1C86E9205F97440092FFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1C86F2205F97440092FFD2 /* OC_SquareProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1C86E4205F97440092FFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1C86C9205F97440092FFD2 /* OC-SquareProgressView */;
+			targetProxy = CD1C86E3205F97440092FFD2 /* PBXContainerItemProxy */;
+		};
+		CD1C86EF205F97440092FFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1C86C9205F97440092FFD2 /* OC-SquareProgressView */;
+			targetProxy = CD1C86EE205F97440092FFD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1C86D3205F97440092FFD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1C86D4205F97440092FFD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1C86D8205F97440092FFD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1C86D9205F97440092FFD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1C86F4205F97440092FFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD1C86F5205F97440092FFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1C86F7205F97440092FFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMP99N9345;
+				INFOPLIST_FILE = "OC-SquareProgressView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dx.OC-SquareProgressView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1C86F8205F97440092FFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMP99N9345;
+				INFOPLIST_FILE = "OC-SquareProgressView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dx.OC-SquareProgressView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD1C86FA205F97440092FFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMP99N9345;
+				INFOPLIST_FILE = "OC-SquareProgressViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dx.OC-SquareProgressViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC-SquareProgressView.app/OC-SquareProgressView";
+			};
+			name = Debug;
+		};
+		CD1C86FB205F97440092FFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMP99N9345;
+				INFOPLIST_FILE = "OC-SquareProgressViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dx.OC-SquareProgressViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC-SquareProgressView.app/OC-SquareProgressView";
+			};
+			name = Release;
+		};
+		CD1C86FD205F97440092FFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMP99N9345;
+				INFOPLIST_FILE = "OC-SquareProgressViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dx.OC-SquareProgressViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OC-SquareProgressView";
+			};
+			name = Debug;
+		};
+		CD1C86FE205F97440092FFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMP99N9345;
+				INFOPLIST_FILE = "OC-SquareProgressViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dx.OC-SquareProgressViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OC-SquareProgressView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1C86C5205F97440092FFD2 /* Build configuration list for PBXProject "OC-SquareProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1C86F4205F97440092FFD2 /* Debug */,
+				CD1C86F5205F97440092FFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1C86F6205F97440092FFD2 /* Build configuration list for PBXNativeTarget "OC-SquareProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1C86F7205F97440092FFD2 /* Debug */,
+				CD1C86F8205F97440092FFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1C86F9205F97440092FFD2 /* Build configuration list for PBXNativeTarget "OC-SquareProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1C86FA205F97440092FFD2 /* Debug */,
+				CD1C86FB205F97440092FFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1C86FC205F97440092FFD2 /* Build configuration list for PBXNativeTarget "OC-SquareProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1C86FD205F97440092FFD2 /* Debug */,
+				CD1C86FE205F97440092FFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1C86C2205F97440092FFD2 /* Project object */;
+}
