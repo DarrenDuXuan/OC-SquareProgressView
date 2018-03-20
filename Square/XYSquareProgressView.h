@@ -22,14 +22,18 @@ typedef NS_ENUM(NSInteger, SquareDirection) {
 
 @interface XYSquareProgressView : UIView
 
+//set percent
 @property (assign, nonatomic)float percent;
 
 //line width
-@property (assign, nonatomic)float width;//normal = 4
+//normal = 4
+@property (assign, nonatomic)float width;
 
 //color
+//normal blackColor
 @property (strong, nonatomic) UIColor *strokeColor;
 
+//normal greenColor
 @property (strong, nonatomic) UIColor *centerColor;
 
 @end
