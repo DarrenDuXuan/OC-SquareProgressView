@@ -58,7 +58,7 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineCap(context, kCGLineCapButt);
     CGContextSetLineWidth(context, _width);
-    CGContextSetStrokeColorWithColor(context, _strokeColor.CGColor);
+    CGContextSetStrokeColorWithColor(context, _strokeColor == nil?[UIColor blackColor].CGColor:_strokeColor.CGColor);
     // 255, 84, 19
     
     CGContextBeginPath(context);
@@ -98,7 +98,7 @@
     float W = self.frame.size.width;
     float H = self.frame.size.height;
     CGRect rect2 = CGRectMake(0, 0, W, H);
-    [_centerColor set];
+    [_centerColor==nil?[UIColor greenColor]:_centerColor set];
     UIRectFill(rect2);
 }
 
