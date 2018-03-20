@@ -46,6 +46,10 @@
     [self setNeedsDisplay];
 }
 
+- (void)setNeedsDisplay{
+    [super setNeedsDisplay];
+}
+
 - (void)drawRect:(CGRect)rect {
     [self drawCenterView];
     [self drawLineView];

@@ -23,9 +23,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.progressView.centerColor = [UIColor greenColor];
-    self.progressView.strokeColor = [UIColor redColor];
-    self.progressView.width = 2;
+    self.progressView.centerColor = [UIColor purpleColor];
+    self.progressView.strokeColor = [UIColor greenColor];
+    self.progressView.width = 5;
     
 }
 
@@ -35,7 +35,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)onClickAddProgressBtn:(id)sender {
-    _progress += 0.1;
+    _progress += 0.05;
     if ( _progress > 1.0 ) {
         _progress = 1.0;
     }
@@ -43,7 +43,7 @@
 }
 
 - (IBAction)onClickSubProgressBtn:(id)sender {
-    _progress -= 0.1;
+    _progress -= 0.05;
     if ( _progress < 0.0 ) {
         _progress = 0.0;
     }
