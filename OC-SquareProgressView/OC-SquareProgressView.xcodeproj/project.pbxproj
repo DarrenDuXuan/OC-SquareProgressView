@@ -15,7 +15,6 @@
 		CD1C86DD205F97440092FFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86DC205F97440092FFD2 /* main.m */; };
 		CD1C86E7205F97440092FFD2 /* OC_SquareProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86E6205F97440092FFD2 /* OC_SquareProgressViewTests.m */; };
 		CD1C86F2205F97440092FFD2 /* OC_SquareProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */; };
-		CD1C870A205F97FD0092FFD2 /* UIColor+Translate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C8708205F97FD0092FFD2 /* UIColor+Translate.m */; };
 		CD1C870B205F97FD0092FFD2 /* XYSquareProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C8709205F97FD0092FFD2 /* XYSquareProgressView.m */; };
 /* End PBXBuildFile section */
 
@@ -53,9 +52,7 @@
 		CD1C86ED205F97440092FFD2 /* OC-SquareProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-SquareProgressViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_SquareProgressViewUITests.m; sourceTree = "<group>"; };
 		CD1C86F3205F97440092FFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD1C8706205F97FD0092FFD2 /* UIColor+Translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Translate.h"; path = "../../../Square/UIColor+Translate.h"; sourceTree = "<group>"; };
 		CD1C8707205F97FD0092FFD2 /* XYSquareProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYSquareProgressView.h; path = ../../../Square/XYSquareProgressView.h; sourceTree = "<group>"; };
-		CD1C8708205F97FD0092FFD2 /* UIColor+Translate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Translate.m"; path = "../../../Square/UIColor+Translate.m"; sourceTree = "<group>"; };
 		CD1C8709205F97FD0092FFD2 /* XYSquareProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYSquareProgressView.m; path = ../../../Square/XYSquareProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,8 +139,6 @@
 		CD1C8705205F97C40092FFD2 /* Square */ = {
 			isa = PBXGroup;
 			children = (
-				CD1C8706205F97FD0092FFD2 /* UIColor+Translate.h */,
-				CD1C8708205F97FD0092FFD2 /* UIColor+Translate.m */,
 				CD1C8707205F97FD0092FFD2 /* XYSquareProgressView.h */,
 				CD1C8709205F97FD0092FFD2 /* XYSquareProgressView.m */,
 			);
@@ -284,7 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1C870B205F97FD0092FFD2 /* XYSquareProgressView.m in Sources */,
-				CD1C870A205F97FD0092FFD2 /* UIColor+Translate.m in Sources */,
 				CD1C86D2205F97440092FFD2 /* ViewController.m in Sources */,
 				CD1C86DD205F97440092FFD2 /* main.m in Sources */,
 				CD1C86CF205F97440092FFD2 /* AppDelegate.m in Sources */,

@@ -58,19 +58,7 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineCap(context, kCGLineCapButt);
     CGContextSetLineWidth(context, _width);
-    if ( _strokeColor ) {
-        NSUInteger rHex = [UIColor xycHexFromColor:_strokeColor];
-        CGFloat R = (rHex & 0xFF0000 )>>16;
-        CGFloat G = (rHex & 0x00FF00 )>>8;
-        CGFloat B = rHex & 0x0000FF;
-        _r = R;
-        _g = G;
-        _b = B;
-        CGContextSetRGBStrokeColor(context, R/255.0, G/255.0, B/255.0, _alpha);
-        _strokeColor = nil;
-    }else{
-        CGContextSetRGBStrokeColor(context, _r/255.0, _g/255.0, _b/255.0, _alpha);
-    }
+    CGContextSetStrokeColorWithColor(context, _strokeColor.CGColor);
     // 255, 84, 19
     
     CGContextBeginPath(context);

@@ -29,12 +29,6 @@ typedef NS_ENUM(NSInteger, SquareDirection) {
 
 //color
 @property (strong, nonatomic) UIColor *strokeColor;
-//or
-@property (assign, nonatomic) CGFloat r;
-@property (assign, nonatomic) CGFloat g;
-@property (assign, nonatomic) CGFloat b;
-
-@property (assign, nonatomic) CGFloat alpha;//normal = 1.0
 
 @property (strong, nonatomic) UIColor *centerColor;
 
