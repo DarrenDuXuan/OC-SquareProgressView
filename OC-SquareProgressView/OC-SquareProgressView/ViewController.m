@@ -23,8 +23,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.progressView.centerColor = [UIColor purpleColor];
-    self.progressView.strokeColor = [UIColor greenColor];
+    self.progressView.centerColor = [UIColor yellowColor];
+    self.progressView.strokeColor = [UIColor redColor];
     self.progressView.width = 5;
     
 }

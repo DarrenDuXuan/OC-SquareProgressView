@@ -22,6 +22,9 @@ typedef NS_ENUM(NSInteger, SquareDirection) {
 
 @interface XYSquareProgressView : UIView
 
+@property (nonatomic) SquareStartPoint startPoint;
+@property (nonatomic) SquareDirection direction;
+
 //set percent
 @property (assign, nonatomic)float percent;
 

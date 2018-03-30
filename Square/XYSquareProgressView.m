@@ -56,46 +56,127 @@
 }
 
 - (void) drawLineView{
-    float progressW = self.frame.size.width;
-    float progressH = self.frame.size.height;
+    float w = self.frame.size.width;
+    float h = self.frame.size.height;
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineCap(context, kCGLineCapButt);
     CGContextSetLineWidth(context, _width);
     CGContextSetStrokeColorWithColor(context, _strokeColor == nil?[UIColor blackColor].CGColor:_strokeColor.CGColor);
-    // 255, 84, 19
     
     CGContextBeginPath(context);
     
+    switch (_direction) {
+        case SquareDirectionRight:
+        {
+            switch (_startPoint) {
+                case SquareStartPointLeftUp:
+                    [self updatePointLeftUpToRight:w progressH:h context:context];
+                    break;
+                case SquareStartPointRightUp:
+                    [self updatePointRightUpToRight:w progressH:h context:context];
+                    break;
+                case SquareStartPointRightDown:
+                    
+                    break;
+                case SquareStartPointLeftDown:
+                    
+                    break;
+                default:
+                    break;
+            }
+        }
+            break;
+        case SquareDirectionLeft:
+        {
+            switch (_startPoint) {
+                case SquareStartPointLeftUp:
+                    
+                    break;
+                case SquareStartPointRightUp:
+                    
+                    break;
+                case SquareStartPointRightDown:
+                    
+                    break;
+                case SquareStartPointLeftDown:
+                    
+                    break;
+                default:
+                    break;
+            }
+        }
+            break;
+        default:
+            break;
+    }
+    
+    CGContextStrokePath(context);
+}
+
+#pragma mark - Point LeftUp To Right
+- (void)updatePointLeftUpToRight:(float)w progressH:(float)h context:(CGContextRef)context{
     CGContextMoveToPoint(context, 0, 0);
     if ( _percent <= 0.25 ) {
-        float pWidth = (progressW*_percent)/0.25;
+        float pWidth = (w*_percent)/0.25;
         CGContextAddLineToPoint(context, pWidth, 0);
     }else if ( _percent <= 0.5 ){
         CGContextAddLineToPoint(context, 0, 0);
-        CGContextAddLineToPoint(context, progressW, 0);
-        float pPointY = progressH*(_percent - 0.25)/0.25;
-        CGContextAddLineToPoint(context, progressW, pPointY);
+        CGContextAddLineToPoint(context, w, 0);
+        float pPointY = h*(_percent - 0.25)/0.25;
+        CGContextAddLineToPoint(context, w, pPointY);
     }else if ( _percent <= 0.75 ){
         CGContextAddLineToPoint(context, 0, 0);
-        CGContextAddLineToPoint(context, progressW, 0);
-        CGContextAddLineToPoint(context, progressW, progressH);
-        float pWidth = progressW*(0.75-_percent)/0.25;
-        CGContextAddLineToPoint(context, pWidth, progressH);
+        CGContextAddLineToPoint(context, w, 0);
+        CGContextAddLineToPoint(context, w, h);
+        float pWidth = w*(0.75-_percent)/0.25;
+        CGContextAddLineToPoint(context, pWidth, h);
     }else if ( _percent <= 1 ){
         CGContextAddLineToPoint(context, 0, 0);
-        CGContextAddLineToPoint(context, progressW, 0);
-        CGContextAddLineToPoint(context, progressW, progressH);
-        CGContextAddLineToPoint(context, 0, progressH);
-        float pPointY = progressH*(1-_percent)/0.25;
+        CGContextAddLineToPoint(context, w, 0);
+        CGContextAddLineToPoint(context, w, h);
+        CGContextAddLineToPoint(context, 0, h);
+        float pPointY = h*(1-_percent)/0.25;
         CGContextAddLineToPoint(context, 0, pPointY);
     }else{
         CGContextAddLineToPoint(context, 0, 0);
-        CGContextAddLineToPoint(context, progressW, 0);
-        CGContextAddLineToPoint(context, progressW, progressH);
-        CGContextAddLineToPoint(context, 0, progressH);
+        CGContextAddLineToPoint(context, w, 0);
+        CGContextAddLineToPoint(context, w, h);
+        CGContextAddLineToPoint(context, 0, h);
+        CGContextAddLineToPoint(context, 0, 0);
     }
-    CGContextStrokePath(context);
+}
+
+- (void)updatePointRightUpToRight:(float)w progressH:(float)h context:(CGContextRef)context{
+    CGContextMoveToPoint(context, w, 0);
+    if ( _percent <= 0.25 ) {
+        float pHeight = (h*_percent)/0.25;
+        CGContextAddLineToPoint(context, w, pHeight);
+    }else if ( _percent <= 0.5 ){
+        CGContextAddLineToPoint(context, w, 0);
+        CGContextAddLineToPoint(context, w, h);
+        float pWidth = w*(0.5-_percent)/0.25;
+        CGContextAddLineToPoint(context, pWidth, h);
+    }else if ( _percent <= 0.75 ){
+        CGContextAddLineToPoint(context, w, 0);
+        CGContextAddLineToPoint(context, w, h);
+        CGContextAddLineToPoint(context, 0, h);
+        float pPointY = h*(0.75-_percent)/0.25;
+        CGContextAddLineToPoint(context, 0, pPointY);
+    }else if ( _percent <= 1 ){
+        CGContextAddLineToPoint(context, w, 0);
+        CGContextAddLineToPoint(context, w, h);
+        CGContextAddLineToPoint(context, 0, h);
+        CGContextAddLineToPoint(context, 0, 0);
+        float pWidth = w*(_percent-0.75)/0.25;
+        CGContextAddLineToPoint(context, pWidth, 0);
+    }else{
+        CGContextAddLineToPoint(context, w, 0);
+        CGContextAddLineToPoint(context, w, h);
+        CGContextAddLineToPoint(context, 0, h);
+        CGContextAddLineToPoint(context, 0, 0);
+        CGContextAddLineToPoint(context, w, 0);
+    }
 }
 
 - (void) drawCenterView{
