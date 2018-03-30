@@ -71,8 +71,7 @@
         {
             switch (_startPoint) {
                 case SquareStartPointLeftUp:
-//                    updatePointLeftUpToRight
-                    [self updatePointLeftDownToLeft:w progressH:h context:context];
+                    [self updatePointLeftUpToRight:w progressH:h context:context];
                     break;
                 case SquareStartPointRightUp:
                     [self updatePointRightUpToRight:w progressH:h context:context];
