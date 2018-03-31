@@ -25,7 +25,7 @@
     
     self.progressView.centerColor = [UIColor yellowColor];
     self.progressView.strokeColor = [UIColor redColor];
-    self.progressView.width = 5;
+    self.progressView.width = 10;
     
 }
 
