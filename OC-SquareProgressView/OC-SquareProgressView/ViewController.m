@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "XYSquareProgressView.h"
+#import "SquareGradientProgressView.h"
 
 @interface ViewController ()
 
@@ -15,7 +16,7 @@
 
 @property (assign, nonatomic) CGFloat progress;
 
-@property(nonatomic, strong) CAShapeLayer *foreLayer;
+@property (weak, nonatomic) IBOutlet SquareGradientProgressView *sqGradientProgressView;
 
 @end
 
@@ -29,16 +30,6 @@
     self.progressView.strokeColor = [UIColor redColor];
     self.progressView.width = 10;
     
-    
-    UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(10, 10, 100, 100)];
-    self.foreLayer = [CAShapeLayer new];
-    self.foreLayer.path = path.CGPath;
-    self.foreLayer.fillColor = [UIColor clearColor].CGColor;
-    self.foreLayer.strokeColor = [UIColor blackColor].CGColor;
-    self.foreLayer.lineWidth = 4;
-    self.foreLayer.strokeStart = 0;
-    self.foreLayer.strokeEnd = 0;
-    [self.view.layer addSublayer:self.foreLayer];
 }
 
 
@@ -52,7 +43,7 @@
         _progress = 1.0;
     }
     self.progressView.percent = _progress;
-    self.foreLayer.strokeEnd = _progress;
+    [self.sqGradientProgressView updateProgress:_progress];
 }
 
 - (IBAction)onClickSubProgressBtn:(id)sender {
@@ -61,7 +52,7 @@
         _progress = 0.0;
     }
     self.progressView.percent = _progress;
-    self.foreLayer.strokeEnd = _progress;
+    [self.sqGradientProgressView updateProgress:_progress];
 }
 
 @end

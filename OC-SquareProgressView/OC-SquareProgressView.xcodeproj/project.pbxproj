@@ -17,6 +17,7 @@
 		CD1C86F2205F97440092FFD2 /* OC_SquareProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */; };
 		CD9EA63221C7CDAD00D73518 /* XYSquareProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EA62E21C7CDAD00D73518 /* XYSquareProgressView.m */; };
 		CD9EA63321C7CDAD00D73518 /* UIColor+Translate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EA63121C7CDAD00D73518 /* UIColor+Translate.m */; };
+		CD9EA63621C7CEC500D73518 /* SquareGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EA63521C7CEC500D73518 /* SquareGradientProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		CD9EA62F21C7CDAD00D73518 /* UIColor+Translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Translate.h"; path = "../../../Square/UIColor+Translate.h"; sourceTree = "<group>"; };
 		CD9EA63021C7CDAD00D73518 /* XYSquareProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYSquareProgressView.h; path = ../../../Square/XYSquareProgressView.h; sourceTree = "<group>"; };
 		CD9EA63121C7CDAD00D73518 /* UIColor+Translate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Translate.m"; path = "../../../Square/UIColor+Translate.m"; sourceTree = "<group>"; };
+		CD9EA63421C7CEC500D73518 /* SquareGradientProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SquareGradientProgressView.h; path = ../../../Square/SquareGradientProgressView.h; sourceTree = "<group>"; };
+		CD9EA63521C7CEC500D73518 /* SquareGradientProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SquareGradientProgressView.m; path = ../../../Square/SquareGradientProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				CD9EA63121C7CDAD00D73518 /* UIColor+Translate.m */,
 				CD9EA63021C7CDAD00D73518 /* XYSquareProgressView.h */,
 				CD9EA62E21C7CDAD00D73518 /* XYSquareProgressView.m */,
+				CD9EA63421C7CEC500D73518 /* SquareGradientProgressView.h */,
+				CD9EA63521C7CEC500D73518 /* SquareGradientProgressView.m */,
 			);
 			path = Square;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			files = (
 				CD1C86D2205F97440092FFD2 /* ViewController.m in Sources */,
 				CD1C86DD205F97440092FFD2 /* main.m in Sources */,
+				CD9EA63621C7CEC500D73518 /* SquareGradientProgressView.m in Sources */,
 				CD9EA63321C7CDAD00D73518 /* UIColor+Translate.m in Sources */,
 				CD1C86CF205F97440092FFD2 /* AppDelegate.m in Sources */,
 				CD9EA63221C7CDAD00D73518 /* XYSquareProgressView.m in Sources */,
