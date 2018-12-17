@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/duxuan/Desktop/Github/OC-SquareProgressView/Square/UIColor+Translate.m \
-  /Users/duxuan/Desktop/Github/OC-SquareProgressView/Square/UIColor+Translate.h
+  /Users/duxuan/Documents/GitHub/OC-SquareProgressView/Square/UIColor+Translate.m \
+  /Users/duxuan/Documents/GitHub/OC-SquareProgressView/Square/UIColor+Translate.h

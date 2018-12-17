@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		PT1iuPrs0sop1sTiMHBra6S9JsM=
+		gn9tWVmtJpADbvPvP9zy3kKG1Ws=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		2pIP9bDH9yVEahM4f+j9kogKmDk=
+		esYEt/IlyS01s027W18xPynP1VI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib</key>
 		<data>
-		SquIaaBTS8fW/k2tAl9Tnkjo4TI=
+		lsz1KTc1iTKmuQVyP2TI1A3Qm44=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib</key>
 		<data>
-		OIJ5Hrmyg+jbWTnUrag1lVU6n00=
+		p1XjJ1y7wz7LBSj4rY1T2WGo2oY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,15 +30,15 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib</key>
 		<data>
-		7+zsMD4Ptan7zS6jNdT36OTZ+eM=
+		H8vRlOepMp7oaKTdJNtRmt3ZlJI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib</key>
 		<data>
-		8dQRneJoS72yMIGehPADrHTqV0E=
+		3Rj7qCmIRRDrZjK/UQoqaRr4I94=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FTBAE+i6qCxxp684lMujrRhj2OE=
+		cgH8a5b2NPqkkVLmTKegLk7QM6M=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		/vSExkInoSDg1m3qVOrt+YHtHQ4=
+		CdS4ox8Q/gfD/nnYy/5Wd3fVkwk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PT1iuPrs0sop1sTiMHBra6S9JsM=
+			gn9tWVmtJpADbvPvP9zy3kKG1Ws=
 			</data>
 			<key>hash2</key>
 			<data>
-			zedgJlrNd9zE4dhTVEmq8DEv/xvKa5NEL5l7s3LpH6g=
+			jQUuDJr6OB2NsQWzMEovGiQrS5w72xqA/goBMD8cx2s=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -77,33 +77,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2pIP9bDH9yVEahM4f+j9kogKmDk=
+			esYEt/IlyS01s027W18xPynP1VI=
 			</data>
 			<key>hash2</key>
 			<data>
-			kbEoT261YJqn6BW70rdcADrBC8mcihWKGPXKMTXabdA=
+			jP4CJn8tSZ7adBR7+bO15USFtgPi11usVVH8hb7f0NI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SquIaaBTS8fW/k2tAl9Tnkjo4TI=
+			lsz1KTc1iTKmuQVyP2TI1A3Qm44=
 			</data>
 			<key>hash2</key>
 			<data>
-			81jgyw5IO83WR8HV1mG2xub07msClI9YHBo/zzhLfy4=
+			k1znELuRaisqekxBCOb+tjyzHhw+5RaiSVL9iaKbnl4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OIJ5Hrmyg+jbWTnUrag1lVU6n00=
+			p1XjJ1y7wz7LBSj4rY1T2WGo2oY=
 			</data>
 			<key>hash2</key>
 			<data>
-			UowbTMM+ZwXX4ItQyt8Y4Tuyhqqi7tOVGYlQd+kRsKc=
+			pUNc9LRSOCCdmg2eTFSq3OxquLmTiQP/n+WydR/B0tk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -121,39 +121,39 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7+zsMD4Ptan7zS6jNdT36OTZ+eM=
+			H8vRlOepMp7oaKTdJNtRmt3ZlJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tOLJTTbTuT6OmbX/XKgTEVzG3EQeKXnr885TPxiMz+Q=
+			spBIhWtue8zfAUvSt2VGQDFeuVeomql8yBe7GmSZB2k=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8dQRneJoS72yMIGehPADrHTqV0E=
+			3Rj7qCmIRRDrZjK/UQoqaRr4I94=
 			</data>
 			<key>hash2</key>
 			<data>
-			mHtT7d8MhtNPPRPyMaNdHii9wsLf0qtuSCJ6pK9IgKg=
+			MCPfhcG3xBBhvJIBUwrM6GsFTi9jG/5AVzusVYk+5eo=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/vSExkInoSDg1m3qVOrt+YHtHQ4=
+			CdS4ox8Q/gfD/nnYy/5Wd3fVkwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			aFy08/gLO+ejTEKIZk7LXJM+1UI/jltKGJ1U+m6MVgY=
+			j/M7sW67v3C7yI9hAdBT7shrcFPENv2/GvqjKdWbiBs=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -184,24 +184,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -237,13 +225,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
