@@ -15,6 +15,8 @@
 
 @property (assign, nonatomic) CGFloat progress;
 
+@property(nonatomic, strong) CAShapeLayer *foreLayer;
+
 @end
 
 @implementation ViewController
@@ -27,6 +29,16 @@
     self.progressView.strokeColor = [UIColor redColor];
     self.progressView.width = 10;
     
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(10, 10, 100, 100)];
+    self.foreLayer = [CAShapeLayer new];
+    self.foreLayer.path = path.CGPath;
+    self.foreLayer.fillColor = [UIColor clearColor].CGColor;
+    self.foreLayer.strokeColor = [UIColor blackColor].CGColor;
+    self.foreLayer.lineWidth = 4;
+    self.foreLayer.strokeStart = 0;
+    self.foreLayer.strokeEnd = 0;
+    [self.view.layer addSublayer:self.foreLayer];
 }
 
 
@@ -40,6 +52,7 @@
         _progress = 1.0;
     }
     self.progressView.percent = _progress;
+    self.foreLayer.strokeEnd = _progress;
 }
 
 - (IBAction)onClickSubProgressBtn:(id)sender {
@@ -48,6 +61,7 @@
         _progress = 0.0;
     }
     self.progressView.percent = _progress;
+    self.foreLayer.strokeEnd = _progress;
 }
 
 @end
