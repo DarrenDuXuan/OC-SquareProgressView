@@ -67,3 +67,8 @@ Gemfile.lock
 
 OC-SquareProgressView/Build
 OC-SquareProgressView/Index
+*.o
+*.o
+*.nib
+*.d
+*.xcuserstate
