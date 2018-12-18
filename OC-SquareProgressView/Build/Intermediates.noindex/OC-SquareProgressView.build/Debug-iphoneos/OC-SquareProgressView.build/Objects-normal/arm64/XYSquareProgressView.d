@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/duxuan/Documents/GitHub/OC-SquareProgressView/Square/XYSquareProgressView.m \
-  /Users/duxuan/Documents/GitHub/OC-SquareProgressView/Square/XYSquareProgressView.h \
-  /Users/duxuan/Documents/GitHub/OC-SquareProgressView/Square/UIColor+Translate.h
+  /Users/duxuan/Desktop/Github/OC-SquareProgressView/OC-SquareProgressView/OC-SquareProgressView/Square/XYSquareProgressView.m \
+  /Users/duxuan/Desktop/Github/OC-SquareProgressView/OC-SquareProgressView/OC-SquareProgressView/Square/XYSquareProgressView.h \
+  /Users/duxuan/Desktop/Github/OC-SquareProgressView/OC-SquareProgressView/OC-SquareProgressView/Square/UIColor+Translate.h

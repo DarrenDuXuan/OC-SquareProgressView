@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD13292921C88C0600C6D1C3 /* UIColor+Translate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13292421C88C0500C6D1C3 /* UIColor+Translate.m */; };
+		CD13292A21C88C0600C6D1C3 /* SquareGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13292621C88C0500C6D1C3 /* SquareGradientProgressView.m */; };
+		CD13292B21C88C0600C6D1C3 /* XYSquareProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13292721C88C0500C6D1C3 /* XYSquareProgressView.m */; };
 		CD1C86CF205F97440092FFD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86CE205F97440092FFD2 /* AppDelegate.m */; };
 		CD1C86D2205F97440092FFD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86D1205F97440092FFD2 /* ViewController.m */; };
 		CD1C86D5205F97440092FFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1C86D3205F97440092FFD2 /* Main.storyboard */; };
@@ -15,9 +18,6 @@
 		CD1C86DD205F97440092FFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86DC205F97440092FFD2 /* main.m */; };
 		CD1C86E7205F97440092FFD2 /* OC_SquareProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86E6205F97440092FFD2 /* OC_SquareProgressViewTests.m */; };
 		CD1C86F2205F97440092FFD2 /* OC_SquareProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */; };
-		CD9EA63221C7CDAD00D73518 /* XYSquareProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EA62E21C7CDAD00D73518 /* XYSquareProgressView.m */; };
-		CD9EA63321C7CDAD00D73518 /* UIColor+Translate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EA63121C7CDAD00D73518 /* UIColor+Translate.m */; };
-		CD9EA63621C7CEC500D73518 /* SquareGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EA63521C7CEC500D73518 /* SquareGradientProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD13292321C88C0500C6D1C3 /* UIColor+Translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Translate.h"; path = "OC-SquareProgressView/Square/UIColor+Translate.h"; sourceTree = SOURCE_ROOT; };
+		CD13292421C88C0500C6D1C3 /* UIColor+Translate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Translate.m"; path = "OC-SquareProgressView/Square/UIColor+Translate.m"; sourceTree = SOURCE_ROOT; };
+		CD13292521C88C0500C6D1C3 /* XYSquareProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYSquareProgressView.h; path = "OC-SquareProgressView/Square/XYSquareProgressView.h"; sourceTree = SOURCE_ROOT; };
+		CD13292621C88C0500C6D1C3 /* SquareGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SquareGradientProgressView.m; path = "OC-SquareProgressView/Square/SquareGradientProgressView.m"; sourceTree = SOURCE_ROOT; };
+		CD13292721C88C0500C6D1C3 /* XYSquareProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYSquareProgressView.m; path = "OC-SquareProgressView/Square/XYSquareProgressView.m"; sourceTree = SOURCE_ROOT; };
+		CD13292821C88C0600C6D1C3 /* SquareGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareGradientProgressView.h; path = "OC-SquareProgressView/Square/SquareGradientProgressView.h"; sourceTree = SOURCE_ROOT; };
 		CD1C86CA205F97440092FFD2 /* OC-SquareProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-SquareProgressView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1C86CD205F97440092FFD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD1C86CE205F97440092FFD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,12 +60,6 @@
 		CD1C86ED205F97440092FFD2 /* OC-SquareProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-SquareProgressViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_SquareProgressViewUITests.m; sourceTree = "<group>"; };
 		CD1C86F3205F97440092FFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD9EA62E21C7CDAD00D73518 /* XYSquareProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYSquareProgressView.m; path = ../../../Square/XYSquareProgressView.m; sourceTree = "<group>"; };
-		CD9EA62F21C7CDAD00D73518 /* UIColor+Translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Translate.h"; path = "../../../Square/UIColor+Translate.h"; sourceTree = "<group>"; };
-		CD9EA63021C7CDAD00D73518 /* XYSquareProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYSquareProgressView.h; path = ../../../Square/XYSquareProgressView.h; sourceTree = "<group>"; };
-		CD9EA63121C7CDAD00D73518 /* UIColor+Translate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Translate.m"; path = "../../../Square/UIColor+Translate.m"; sourceTree = "<group>"; };
-		CD9EA63421C7CEC500D73518 /* SquareGradientProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SquareGradientProgressView.h; path = ../../../Square/SquareGradientProgressView.h; sourceTree = "<group>"; };
-		CD9EA63521C7CEC500D73518 /* SquareGradientProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SquareGradientProgressView.m; path = ../../../Square/SquareGradientProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD13292221C88BF400C6D1C3 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				CD13292821C88C0600C6D1C3 /* SquareGradientProgressView.h */,
+				CD13292621C88C0500C6D1C3 /* SquareGradientProgressView.m */,
+				CD13292321C88C0500C6D1C3 /* UIColor+Translate.h */,
+				CD13292421C88C0500C6D1C3 /* UIColor+Translate.m */,
+				CD13292521C88C0500C6D1C3 /* XYSquareProgressView.h */,
+				CD13292721C88C0500C6D1C3 /* XYSquareProgressView.m */,
+			);
+			name = Square;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		CD1C86C1205F97440092FFD2 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +124,7 @@
 		CD1C86CC205F97440092FFD2 /* OC-SquareProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				CD9EA62D21C7CD8F00D73518 /* Square */,
+				CD13292221C88BF400C6D1C3 /* Square */,
 				CD1C86CD205F97440092FFD2 /* AppDelegate.h */,
 				CD1C86CE205F97440092FFD2 /* AppDelegate.m */,
 				CD1C86D0205F97440092FFD2 /* ViewController.h */,
@@ -140,19 +154,6 @@
 				CD1C86F3205F97440092FFD2 /* Info.plist */,
 			);
 			path = "OC-SquareProgressViewUITests";
-			sourceTree = "<group>";
-		};
-		CD9EA62D21C7CD8F00D73518 /* Square */ = {
-			isa = PBXGroup;
-			children = (
-				CD9EA62F21C7CDAD00D73518 /* UIColor+Translate.h */,
-				CD9EA63121C7CDAD00D73518 /* UIColor+Translate.m */,
-				CD9EA63021C7CDAD00D73518 /* XYSquareProgressView.h */,
-				CD9EA62E21C7CDAD00D73518 /* XYSquareProgressView.m */,
-				CD9EA63421C7CEC500D73518 /* SquareGradientProgressView.h */,
-				CD9EA63521C7CEC500D73518 /* SquareGradientProgressView.m */,
-			);
-			path = Square;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,12 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD13292921C88C0600C6D1C3 /* UIColor+Translate.m in Sources */,
 				CD1C86D2205F97440092FFD2 /* ViewController.m in Sources */,
 				CD1C86DD205F97440092FFD2 /* main.m in Sources */,
-				CD9EA63621C7CEC500D73518 /* SquareGradientProgressView.m in Sources */,
-				CD9EA63321C7CDAD00D73518 /* UIColor+Translate.m in Sources */,
+				CD13292B21C88C0600C6D1C3 /* XYSquareProgressView.m in Sources */,
 				CD1C86CF205F97440092FFD2 /* AppDelegate.m in Sources */,
-				CD9EA63221C7CDAD00D73518 /* XYSquareProgressView.m in Sources */,
+				CD13292A21C88C0600C6D1C3 /* SquareGradientProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
