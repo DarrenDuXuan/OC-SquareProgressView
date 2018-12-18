@@ -7,12 +7,18 @@
 //
 
 #import "SquareGradientProgressView.h"
+#import "UIColor+Translate.h"
 
-@interface SquareGradientProgressView()
+@interface SquareGradientProgressView(){
+    CGFloat _lineWidth;
+}
 
+//
 @property(nonatomic, strong) CAShapeLayer *foreLayer;
 
 @property (nonatomic,strong) CALayer *gradientLayer;
+
+@property (nonatomic, strong) CAGradientLayer *contentLayer;
 
 @end
 
@@ -49,15 +55,33 @@
     [self.layer addSublayer:self.gradientLayer];
     
     //渐变色
-    CAGradientLayer *contentLayer = [CAGradientLayer layer];
-    contentLayer.frame = CGRectMake(0, 0, self.bounds.size.width , self.bounds.size.height);  // 分段设置渐变色
-    contentLayer.colors = @[(id)[UIColor greenColor].CGColor, (id)[UIColor blueColor].CGColor];
-    [self.gradientLayer addSublayer:contentLayer];
+    self.contentLayer = [CAGradientLayer layer];
+    self.contentLayer.frame = CGRectMake(0, 0, self.bounds.size.width , self.bounds.size.height);  // 分段设置渐变色
+    self.contentLayer.colors = @[(id)[UIColor colorWithRed:255.0/255 green:74.0/255 blue:0 alpha:1].CGColor, (id)[UIColor colorWithRed:247.0/255 green:102.0/255 blue:28.0/255 alpha:1].CGColor];
+    [self.gradientLayer addSublayer:self.contentLayer];
     
     [self.gradientLayer setMask:self.foreLayer];
 }
 
+- (void)setLineWidth:(CGFloat)lineWidth{
+    if ( lineWidth < 0 ) {
+        lineWidth = 0;
+    }
+    _lineWidth = lineWidth;
+    self.foreLayer.lineWidth = _lineWidth;
+}
 
+- (void)setColors:(NSArray<UIColor *> *)colors{
+    if ( colors.count == 0 ) {
+        return;
+    }
+    NSMutableArray *array = [NSMutableArray array];
+    [colors enumerateObjectsUsingBlock:^(UIColor * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [array addObject:(__bridge id)obj.CGColor];
+    }];
+    
+    self.contentLayer.colors = [array copy];
+}
 
 - (void)updateProgress:(CGFloat)progress{
     if ( isnan(progress) ) {

@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (assign, nonatomic) CGFloat lineWidth;
 
-@property (strong, nonatomic) NSArray *colors;
+@property (strong, nonatomic) NSArray <UIColor *> *colors;
 
 
 
