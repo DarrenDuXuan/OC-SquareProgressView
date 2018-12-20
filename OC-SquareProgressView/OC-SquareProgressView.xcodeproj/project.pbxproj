@@ -18,6 +18,7 @@
 		CD1C86DD205F97440092FFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86DC205F97440092FFD2 /* main.m */; };
 		CD1C86E7205F97440092FFD2 /* OC_SquareProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86E6205F97440092FFD2 /* OC_SquareProgressViewTests.m */; };
 		CD1C86F2205F97440092FFD2 /* OC_SquareProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */; };
+		CD7121F621CB7A50005A99C5 /* CycleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7121F521CB7A50005A99C5 /* CycleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		CD1C86ED205F97440092FFD2 /* OC-SquareProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-SquareProgressViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1C86F1205F97440092FFD2 /* OC_SquareProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_SquareProgressViewUITests.m; sourceTree = "<group>"; };
 		CD1C86F3205F97440092FFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7121F421CB7A50005A99C5 /* CycleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleProgressView.h; sourceTree = "<group>"; };
+		CD7121F521CB7A50005A99C5 /* CycleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,7 @@
 		CD1C86CC205F97440092FFD2 /* OC-SquareProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				CD7121F321CB7A35005A99C5 /* Progress */,
 				CD13292221C88BF400C6D1C3 /* Square */,
 				CD1C86CD205F97440092FFD2 /* AppDelegate.h */,
 				CD1C86CE205F97440092FFD2 /* AppDelegate.m */,
@@ -154,6 +158,15 @@
 				CD1C86F3205F97440092FFD2 /* Info.plist */,
 			);
 			path = "OC-SquareProgressViewUITests";
+			sourceTree = "<group>";
+		};
+		CD7121F321CB7A35005A99C5 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				CD7121F421CB7A50005A99C5 /* CycleProgressView.h */,
+				CD7121F521CB7A50005A99C5 /* CycleProgressView.m */,
+			);
+			path = Progress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +305,7 @@
 				CD13292921C88C0600C6D1C3 /* UIColor+Translate.m in Sources */,
 				CD1C86D2205F97440092FFD2 /* ViewController.m in Sources */,
 				CD1C86DD205F97440092FFD2 /* main.m in Sources */,
+				CD7121F621CB7A50005A99C5 /* CycleProgressView.m in Sources */,
 				CD13292B21C88C0600C6D1C3 /* XYSquareProgressView.m in Sources */,
 				CD1C86CF205F97440092FFD2 /* AppDelegate.m in Sources */,
 				CD13292A21C88C0600C6D1C3 /* SquareGradientProgressView.m in Sources */,

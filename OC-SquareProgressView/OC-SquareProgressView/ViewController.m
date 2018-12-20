@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "XYSquareProgressView.h"
 #import "SquareGradientProgressView.h"
+#import "CycleProgressView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 @property (assign, nonatomic) CGFloat progress;
 
 @property (weak, nonatomic) IBOutlet SquareGradientProgressView *sqGradientProgressView;
+
+@property (weak, nonatomic) IBOutlet CycleProgressView *cycleProgressView;
 
 @end
 
@@ -29,7 +32,6 @@
     self.progressView.centerColor = [UIColor yellowColor];
     self.progressView.strokeColor = [UIColor redColor];
     self.progressView.width = 10;
-    
 }
 
 
