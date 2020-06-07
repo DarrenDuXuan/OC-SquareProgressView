@@ -32,6 +32,16 @@
     self.progressView.centerColor = [UIColor yellowColor];
     self.progressView.strokeColor = [UIColor redColor];
     self.progressView.width = 10;
+    
+    
+    NSArray *names = @[@"lzh", @"ysh", @"yys"];
+    [names enumerateObjectsUsingBlock:^(NSString *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([obj isEqualToString:@"lzh"]) {
+//            *stop = YES; // 这里并不会马上退出循环，而是执行完 block 中的代码才退出循环
+            return ;
+        }
+        NSLog(@"Name %@\n", obj);
+    }];
 }
 
 
